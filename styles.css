@@ -1,12 +1,14 @@
 body{
   padding: 25px;
   font-family:Caveat;
+	height:1000px;
 }
 .title {
 	color: #ffffff;
 }
 .ScripsC{
 	Margin-left:500px;
+	font-family:Caveat
 }
 ScripsC{
 	Margin-left:700px;
