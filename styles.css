@@ -2,8 +2,7 @@ body{
   padding: 5px;
   font-family:Caveat;
 	height:920px;
-	background-image: url("https://cdn.pixabay.com/photo/2022/01/28/18/32/leaves-6975462_1280.png");
-}
+	background-color: Blue;}
 .title {
 	color: #FF0000;
 	font-family:tahoma;
