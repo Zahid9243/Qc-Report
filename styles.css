@@ -21,3 +21,9 @@ height:120px
 a {
 	font-family:Caveat;
 }
+  .column {
+  float: left;
+  padding: 
+  5px;
+}
+
