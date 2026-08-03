@@ -1,13 +1,6 @@
 body{
   font-family:Priestacy;
 }
-.title {
-	color: #5C6AC4;
-}
-.ScripsC{
-	margin:0px;
-	padding:0px;
-}
 
 div ul {
 	height:140px;
@@ -29,18 +22,11 @@ ul li{
 	transform: rotate(-44deg);
 }
 ul li a {
-	width:20px;	
-	height:20px;
+	text-decoration:none;
 	color: white;
 }
-ul li a:onclick {
-	transform: rotate(-44deg);
-	color:black;
-}
-a {
-	text-decoration:none;
-}
-#clock {
+
+
 	height:130px;
 	width: 280px;	
 	overflow: hidden;
