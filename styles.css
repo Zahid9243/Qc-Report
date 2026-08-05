@@ -1,6 +1,9 @@
 body{
   margin:0;
   padding:0;
+  background-image:url(neo.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 div ul {
@@ -51,11 +54,8 @@ ul li a:active {
 .iframe {
 	height:878px;
 	width:100%;
-	opacity:0.1;
+	opacity:0.8;
 	display: block;
-	background-image:url(neo.png);
-	background-repeat: no-repeat;
-	background-attachment: fixed
 	border:2px solid #333;
 	border-radius: 12px; 
 	box-shadow: 0 10px 20px #333;
@@ -67,4 +67,8 @@ ul li a:active {
 div.clock {
 	border-radius: 12px; 
 	box-shadow: 0 10px 25px #333;
+}
+.menu {
+		background:white;
+		background-opacity:.3;
 }
