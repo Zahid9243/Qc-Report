@@ -1,9 +1,34 @@
 body{
   margin:0;
   padding:0;
-  background-image:url(neo.png);
+}
+.Miframe {
+	height:858px;
+	width:1800px;
+	margin-top:10px;
+	margin-left: 20px;
+	border-radius:30px; 
+	background-image:url(neo.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+.iframe {
+	height:858px;
+	width:1800px;
+	opacity:0.8;
+	display: block;
+	border:3px solid #333;
+	border-radius: 30px; 
+	box-shadow:0px 0px 15px 5px #333;
+	transition: all 0.3s linear;
+}
+#clock {
+	border:0px 0px 20px 0px;
+}
+div.clock {
+	border-radius: 12px; 
+	box-shadow: 0 10px 25px #333;
+	background:red;
 }
 
 div ul {
@@ -13,10 +38,10 @@ div ul {
 }
 .FristC {
 	font-size:12px;
-	font-weight:bold;
+	font-weight: 800;
 	margin-top:20;
 	transform:scale(1.4);
-	background:#2E1A47;
+	background:#FFFF33;
 	color: black;
 }
 ul li{
@@ -42,33 +67,13 @@ ul li a {
 }
 ul li a:hover {
 	margin-top:0;
+	margin-bottom:60px;
 	transform:scale(1.4);
-	background:yellow;
+	background:#FFFF33;
 	color: black;
 }
 ul li a:active {	
 	transform:scale(2.4);
-	background:yellow;
+	background:#FFFF33;
 	color: black;
-}
-.iframe {
-	height:878px;
-	width:100%;
-	opacity:0.8;
-	display: block;
-	border:2px solid #333;
-	border-radius: 12px; 
-	box-shadow: 0 10px 20px #333;
-	transition: all 0.5s linear;
-}
-#clock {
-	border:0px 0px 20px 0px;
-}
-div.clock {
-	border-radius: 12px; 
-	box-shadow: 0 10px 25px #333;
-}
-.menu {
-		background:white;
-		background-opacity:.3;
 }
