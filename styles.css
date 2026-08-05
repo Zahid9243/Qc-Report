@@ -4,10 +4,9 @@ body{
 }
 
 div ul {
-	height:140px;
+	height:80px;
 	width: 540px;
 	float:right;
-	
 }
 .FristC {
 	font-size:12px;
@@ -19,8 +18,7 @@ div ul {
 }
 ul li{
 	display:inline-table;
-	float:left;
-	
+	float:left;	
 }
 ul li a {
 	text-decoration:none;
@@ -34,7 +32,7 @@ ul li a {
 	padding:18px 18px;
 	background-color:black;
 	border-radius: 0px 40px 0px 40px;
-	Margin-top:20px;
+	Margin-top:10px;
 	box-shadow: 0 4px 10px #333;
 	transform: rotate(-27deg);
 	transition: all 0.2s ease-out;
@@ -45,26 +43,28 @@ ul li a:hover {
 	background:yellow;
 	color: black;
 }
-ul li a:active {
-	
+ul li a:active {	
 	transform:scale(2.4);
 	background:yellow;
 	color: black;
 }
-
-iframe {
-	height:820px;
+.iframe {
+	height:878px;
 	width:100%;
+	opacity:0.1;
 	display: block;
+	background-image:url(neo.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed
 	border:2px solid #333;
 	border-radius: 12px; 
-	box-shadow: 0 4px 10px #333;
+	box-shadow: 0 10px 20px #333;
 	transition: all 0.5s linear;
 }
 #clock {
-	border:0px 0px 2px 0px;
+	border:0px 0px 20px 0px;
 }
 div.clock {
 	border-radius: 12px; 
-	box-shadow: 0 4px 10px #333;
+	box-shadow: 0 10px 25px #333;
 }
